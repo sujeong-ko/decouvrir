@@ -1,0 +1,28 @@
+body {
+  background-color: #b4cac6;
+  height: 120vh;
+  position: relative;
+}
+
+.wrapper {
+  padding-top: 200px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  color: white;
+  vertical-align: middle;
+}
+.wrapper p {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+button {
+  margin: 20px 0 0 10px;
+  border: 3px solid white;
+  background-color: white;
+  border-radius: 10px;
+  color: #82918e;
+  cursor: pointer;
+  font-size: 17px;
+}

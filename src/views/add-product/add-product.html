@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>쇼핑-데모</title>
+
+    <link rel="stylesheet" href="../register/register.css" />
+    <link rel="stylesheet" href="../include/header.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css" />
+
+    <script src="add-product.js" type="module" defer></script>
+
+</head>
+
+<body>
+    <header data-include="../include/header.html"></header>
+    <div class="register-user-form-container">
+        <form class="register-user-form-box box" id="registerUserForm" encType="multipart/form-data">
+            <p class="title  registerTitle" id="registerTitle">상품 등록</p>
+            <div class="field">
+                <label class="label" for="name">상품명</label>
+                <div class="control">
+                    <input class="input" id="name" type="text" autocomplete="on" />
+                </div>
+            </div>
+            <div class="field">
+                <label class="label" for="image">이미지</label>
+                <input id="image" type="file" autocomplete="on" />
+            </div>
+            <div class="field">
+                <label class="label" for="category">카테고리</label>
+                <div class="control">
+                    <input class="input" id="category" type="text" autocomplete="on" />
+                </div>
+
+                <div class="field">
+                    <label class="label" for="content">상품 소개</label>
+                    <div class="control">
+                        <input class="input" id="content" type="text" autocomplete="off" />
+                    </div>
+                </div>
+
+                <div class="field mb-5">
+                    <label class="label" for="price">상품 가격</label>
+                    <div class="control">
+                        <input class="input" id="price" autocomplete="off" />
+                    </div>
+                    <button class="button is-primary is-fullwidth" id="postButton">
+                        상품 등록
+                    </button>
+        </form>
+    </div>
+
+
+    <footer data-include="../include/footer.html"></footer>
+
+    <!-- <script src="./slide.js"></script> -->
+    <script src="../include/include.js"></script>
+    <script src="https://kit.fontawesome.com/58adb12a8e.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

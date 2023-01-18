@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Découvrir</title>
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css" />
+  <link rel="stylesheet" href="../include/header.css" />
+  <link rel="stylesheet" href="./home.css" />
+  <!-- <link rel="stylesheet" href="../css/sytle.css" /> -->
+</head>
+
+<body>
+  <!-- header -->
+  <header data-include="../include/header.html"></header>
+
+  <section class="main-wrapper">
+    <div class="menu-wrapper">
+      <div class="background-video">
+        <video class="background-video__content" autoplay muted loop>
+          <source src="image/background.mp4" type="video/mp4" />
+          Sorry, Your browser is not supported!
+        </video>
+      </div>
+
+      <div class="text-box">
+        <h1 class="text"></h1>
+      </div>
+
+      <div class="btn-wrapper">
+        <a href="/products"><input id="btn" class="button is-small" type="button" value="작품 보러가기" /></a>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer -->
+  <footer data-include="../include/footer.html"></footer>
+</body>
+<script src="../include/include.js" defer></script>
+<script type="module" src="./home.js"></script>
+<script src="https://kit.fontawesome.com/58adb12a8e.js" crossorigin="anonymous"></script>
+
+</html>

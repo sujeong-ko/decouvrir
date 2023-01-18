@@ -1,0 +1,62 @@
+body {
+  background-color: #b4cac6;
+  height: 150vh;
+  position: relative;
+}
+
+.wrapper {
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+}
+
+ul,
+li,
+p {
+  color: white;
+}
+
+div {
+  margin: 20px 50px;
+  text-align: left;
+}
+
+ul,
+li {
+  list-style: none;
+  display: flex;
+}
+
+div p {
+  padding: 10px;
+  font-size: 17px;
+}
+
+div ul {
+  padding: 0px;
+}
+
+div ul li {
+  padding: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.work {
+  display: block;
+}
+
+.painter-title {
+  font-size: 25px;
+  font-weight: 700;
+}
+
+#painter-work {
+  margin-top: 50px;
+}
+
+.product-name {
+  color: white;
+}

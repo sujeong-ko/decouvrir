@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Login</title>
+    <!-- 아이콘 -->
+    <link rel="stylesheet" href="../include/header.css" />
+    <link rel="stylesheet" href="../register/register.css" />
+    <link rel="stylesheet" href="./login.css" />
+  </head>
+
+  <body>
+    <!-- 헤더 -->
+    <header data-include="../include/header.html"></header>
+
+    <!-- 로그인 폼(Form) -->
+    <div class="register-user-form-container">
+      <form class="box register-user-form-box" id="registerUserForm">
+        <p class="title registerTitle" id="registerTitle">Sign In</p>
+        <div class="field">
+          <label class="label" for="emailInput">아이디</label>
+          <div class="control">
+            <input
+              class="input"
+              id="emailInput"
+              type="text"
+              placeholder="abc@example.com"
+              autocomplete="on"
+            />
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="label" for="passwordInput">비밀번호</label>
+          <div class="control">
+            <input
+              class="input"
+              id="passwordInput"
+              type="password"
+              placeholder="*****"
+              autocomplete="on"
+            />
+          </div>
+        </div>
+
+        <div class="buttons">
+          <button class="button is-primary is-fullwidth" id="submitButton">
+            로그인하기
+          </button>
+          <button class="button is-fullwidth">
+            <a href="../register/"> 회원가입하기 </a>
+          </button>
+        </div>
+      </form>
+    </div>
+    <footer data-include="../include/footer.html"></footer>
+
+    <script src="login.js" type="module" defer></script>
+    <script src="../include/include.js" defer></script>
+    <script
+      src="https://kit.fontawesome.com/58adb12a8e.js"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

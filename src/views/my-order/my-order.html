@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+   
+    <title>주문/배송</title>
+    <script src="../include/include.js" defer></script>
+    <script src="https://kit.fontawesome.com/58adb12a8e.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="../include/header.css" />
+    <link rel="stylesheet" href="../include/sidemenu.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css">
+    <link rel="stylesheet" href="./order-list.css" />
+  </head>
+  <body>
+    <header data-include="../include/header.html"></header>
+    <div id="container">
+      <aside data-include="../include/sidemenu.html"></aside>
+      <main>
+        <div class="order">
+          <h3>주문 / 배송</h3>
+        </div>
+        <!--js로 추가하면 됨.-->
+        <!--order list 구성-->
+        <section class="order-list">
+            <div class="order-date">
+                <p>주문날짜</p>
+            </div>
+            <!-- 주문날짜에 해당하는 order item 구성. 같은 날짜면 얘만 추가 되는 형식..-->
+            <div class="order-item"> 
+              <div class="image-container">
+                  <img class="product-image" src = "", alt= "작품사진">
+              </div>
+              <div class="order-info">
+                  <ul class="product-info">
+                      <li class="artist-name">작가이름</li>
+                      <li class="product-name"><a href="">작품이름</a></li>
+                  </ul>
+                  <p class="product-price">작품 가격</p>
+                  <p class="order-status">상품준비중</p>
+                  <p class="order-status-explain">상품 준비 중입니다. 조금만 기다려주세요!</p>
+              </div>
+              <div class="buttons">
+                <button class="button is-white">상품취소</button>
+              </div>
+            </div>
+
+            <div class="order-item"> 
+              <div class="image-container">
+                  <img class="product-image" src = "", alt= "작품사진">
+              </div>
+              <div class="order-info">
+                  <ul class="product-info">
+                      <li class="artist-name">작가이름</li>
+                      <li class="product-name"><a href="">작품이름</a></li>
+                  </ul>
+                  <p class="product-price">작품 가격</p>
+                  <p class="order-status">배송완료</p>
+                  <p class="order-status-explain">배송이 완료되었습니다.</p>
+              </div>
+            </div>
+        </section>
+      </main>
+    </div>
+  </body>
+  <footer></footer>
+</html>

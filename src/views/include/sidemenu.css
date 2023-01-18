@@ -1,0 +1,49 @@
+nav {
+  display: flex;
+  flex-direction: column;
+}
+
+.sidebar {
+  /* margin-left: 20px;
+  width: 150px; */
+  padding-top: 10px;
+  border-bottom-width: thin;
+  border-bottom-style: solid;
+  border-bottom-color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+ul,
+li {
+  list-style: none;
+  padding: 5px 0px;
+}
+
+.menu-list li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.menu {
+  width: 20%;
+}
+
+.menu-label {
+  font-size: medium;
+  margin: 10px 0px;
+  padding: 0px;
+}
+
+.menu-list {
+  display: flex;
+  flex-direction: column;
+  font-size: medium;
+  text-decoration: none;
+  padding-left: 0px;
+}
+
+.menu-list li:hover {
+  color: gainsboro;
+  padding-left: 0px;
+}

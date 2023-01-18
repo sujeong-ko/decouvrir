@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+  <title>장바구니</title>
+  <link rel="stylesheet" href="../include/header.css" />
+  <link rel="stylesheet" href="./cart.css" />
+</head>
+
+<body>
+  <header data-include="../include/header.html"></header>
+
+  <div id="container" class="cart-container">
+    <main>
+      <div class="cart">
+        <h3>Cart</h3>
+      </div>
+      <div class="buttons-container">
+        <button class="all-item-delete-btn" type="button">전체 상품 삭제</button>
+      </div>
+
+      <ul id="cart-item-list">
+        <!--js로 장바구니 item 추가-->
+
+      </ul>
+
+      <div class="cart-total">
+        <span>주문금액</span>
+        <span class="cart-total-price">000원</span>
+      </div>
+      <div class="buttons-container">
+        <button class="all-item-order-btn">총 0건 주문 계속</buttin>
+      </div>
+    </main>
+  </div>
+  <footer data-include="../include/footer.html"></footer>
+
+  <script src="./cart.js"></script>
+  <script src="../include/include.js" defer></script>
+  <script src="https://kit.fontawesome.com/58adb12a8e.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

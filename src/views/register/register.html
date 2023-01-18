@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>쇼핑-데모</title>
+
+    <!-- bulma css 관련 -->
+    <link rel="stylesheet" href="register.css" />
+    <link rel="stylesheet" href="../include/header.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
+    />
+
+    <script src="register.js" type="module" defer></script>
+  </head>
+
+  <body>
+    <header data-include="../include/header.html"></header>
+
+    <!-- 회원가입 폼(Form) -->
+    <div class="register-user-form-container">
+      <form class="register-user-form-box box" id="registerUserForm">
+        <p class="title registerTitle" id="registerTitle">Sign Up</p>
+        <div class="field">
+          <label class="label" for="fullNameInput">이름</label>
+          <div class="control">
+            <input
+              class="input"
+              id="fullNameInput"
+              type="text"
+              autocomplete="on"
+            />
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="label" for="emailInput">이메일</label>
+          <div class="control">
+            <input
+              class="input"
+              id="emailInput"
+              type="email"
+              placeholder="abc@example.com"
+              autocomplete="on"
+            />
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="label" for="passwordInput">비밀번호</label>
+          <div class="control">
+            <input
+              class="input"
+              id="passwordInput"
+              type="password"
+              placeholder="********"
+              autocomplete="off"
+            />
+          </div>
+        </div>
+
+        <div class="field mb-5">
+          <label class="label" for="passwordConfirmInput">비밀번호 확인</label>
+          <div class="control">
+            <input
+              class="input"
+              id="passwordConfirmInput"
+              type="password"
+              placeholder="********"
+              autocomplete="off"
+            />
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="label" for="phoneNumberInput">핸드폰 번호</label>
+          <div class="control">
+            <input
+              class="input"
+              id="phoneNumberInput"
+              type="phone"
+              placeholder="only Number"
+              autocomplete="on"
+            />
+          </div>
+        </div>
+
+        <div class="field">
+          <div class="field-header">
+            <label class="label" for="addressInput">주소</label>
+            <a href="https://www.juso.go.kr/openIndexPage.do">주소 찾기</a>
+          </div>
+          <div class="control">
+            <input
+              class="input"
+              id="addressInput"
+              type="text"
+              placeholder="서울특별시 데쿠버구 데쿠버동 123-31(12345)"
+              autocomplete="on"
+            />
+          </div>
+        </div>
+
+        <div class="field">
+          <span>Are you Painter?</span>
+          <span class="toggle-switch">
+            <input type="checkbox" id="togle-swith" />
+            <label for="togle-swith"></label>
+          </span>
+        </div>
+        <div class="painter-user-form-container">
+          <div class="field">
+            <label class="label" for="painterNameInput">작가 이름</label>
+            <div class="control">
+              <input
+                class="input"
+                id="painterNameInput"
+                type="text"
+                autocomplete="on"
+              />
+            </div>
+          </div>
+
+          <div class="field">
+            <label class="label" for="introduceInput">작가 소개</label>
+            <div class="control">
+              <input
+                class="input"
+                id="introduceInput"
+                type="email"
+                autocomplete="on"
+              />
+            </div>
+          </div>
+        </div>
+        <button class="button is-primary is-fullwidth" id="submitButton">
+          회원가입하기
+        </button>
+      </form>
+    </div>
+
+    <footer data-include="../include/footer.html"></footer>
+  </body>
+  <script src="../include/include.js" defer></script>
+  <script
+    src="https://kit.fontawesome.com/58adb12a8e.js"
+    crossorigin="anonymous"
+  ></script>
+</html>

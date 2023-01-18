@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+span {
+  color: #fff;
+}
+
+img {
+  width: 250px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  background-color: #b4cac6;
+  height: 300vh;
+  position: relative;
+}
+
+.work-type {
+  width: 80%;
+  margin-top: 60px;
+  margin-bottom: 80px;
+  flex-direction: column;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+}
+
+.work-wrapper {
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.work-wrapper img {
+  margin-bottom: 10px;
+}
+
+.sub-title {
+  text-align: center;
+}
+
+.work {
+  display: flex;
+  flex-direction: column;
+  margin: 30px;
+}
+
+.work span {
+  font-size: 10px;
+  text-align: right;
+}
+
+/* /////////////// */
+
+.open-toggle-button {
+  /* padding: 7px 10px; */
+  cursor: pointer;
+}
+
+.register-user-form-container {
+  /* width: 500px;
+  height: 700px;
+  background-color: #fff; */
+  display: none;
+  position: absolute;
+  border-radius: 15px;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; */
+}
+
+.closeBtn {
+  /* align-self: flex-end; */
+  cursor: pointer;
+}
+
+.register-user-form-box {
+  /* display: none; */
+}

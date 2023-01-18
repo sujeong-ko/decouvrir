@@ -1,0 +1,29 @@
+body {
+  background-color: #b4cac6;
+  height: 100vh;
+  position: relative;
+}
+
+.welcome {
+  font-family: "Dancing Script", cursive;
+  font-size: 60px;
+  color: rgb(121, 159, 146);
+}
+
+.introduce-wrapper {
+  padding-top: 150px;
+  width: 80%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.site-info {
+  margin-top: 50px;
+  font-weight: 400;
+  line-height: 2;
+}
+
+.site-info span {
+  color: #fff;
+  font-weight: 700;
+}

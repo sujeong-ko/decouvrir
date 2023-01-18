@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>쇼핑-데모</title>
+
+  <!-- bulma css 관련 -->
+  <link rel="stylesheet" href="./my-page.css" />
+  <link rel="stylesheet" href="../register/register.css" />
+
+  <link rel="stylesheet" href="../include/header.css" />
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css" />
+
+  <script src="my-page-test.js" type="module" defer></script>
+</head>
+
+<body>
+
+  <header data-include="../include/header.html"></header>
+
+  <div class="register-user-form-container">
+    <form class="register-user-form-box box" id="registerUserForm">
+      <p class="title  registerTitle" id="registerTitle">회원정보</p>
+      <div class="field">
+        <button class="logoutButton">로그아웃</button>
+      </div>
+      <div class="field">
+        <label class="label" for="fullNameInput">이름</label>
+        <div class="control">
+          <input class="input" id="fullNameInput" type="text" autocomplete="on" />
+        </div>
+      </div>
+
+      <div class="field">
+        <label class="label" for="passwordInput">비밀번호</label>
+        <div class="control">
+          <input class="input" id="passwordInput" type="password" placeholder="********" autocomplete="on" />
+        </div>
+      </div>
+
+      <div class="field">
+        <label class="label" for="passwordConfirmInput">비밀번호 확인</label>
+        <div class="control">
+          <input class="input" id="passwordConfirmInput" type="password" placeholder="********" autocomplete="off" />
+        </div>
+      </div>
+
+      <div class="field">
+        <label class="label" for="phoneNumberInput">핸드폰 번호</label>
+        <div class="control">
+          <input class="input" id="phoneNumberInput" type="phone" placeholder="only Number" autocomplete="on" />
+        </div>
+      </div>
+
+      <div class="field">
+        <div class="field-header">
+          <label class="label" for="addressInput">주소</label>
+          <a href="https://www.juso.go.kr/openIndexPage.do">주소 찾기</a>
+        </div>
+        <div class="control">
+          <input class="input" id="addressInput" type="text" placeholder="서울특별시 데쿠버구 데쿠버동 123-31(12345)"
+            autocomplete="on" />
+        </div>
+      </div>
+
+      <!-- 유저가 painter-user면 아래 페이지가 보임 y-->
+      <div id="painterInputs">
+        <div class="field">
+          <label class="label" for="painterNameInput">작가 이름</label>
+          <div class="control">
+            <input class="input" id="painterNameInput" type="phone" autocomplete="on" />
+          </div>
+        </div>
+        <div class="field">
+          <label class="label" for="introduceInput">작가 소개</label>
+          <div class="control">
+            <input class="input" id="introduceInput" type="phone" autocomplete="on" />
+          </div>
+        </div>
+      </div>
+
+      <div class="buttons">
+        <button class="button is-primary is-fullwidth" id="saveButton">
+          저장하기
+        </button>
+        <button class="button is-primary is-fullwidth" id="withdrawButton">
+          회원탈퇴
+        </button>
+      </div>
+
+  </div>
+
+
+  <!-- 정보 수정을 완료하기 위해, 현재 비밀번호를 입력할 Modal 창 -->
+  <div id="modal" class="modal">
+    <div class="modal-background" id="modalBackground"></div>
+    <div class="modal-content">
+      <button class="delete is-large" id="modalCloseButton" aria-label="close"></button>
+      <div class="box">
+        <p class="mb-3">현재 비밀번호를 입력해 주세요.</p>
+        <input class="input is-link mb-3" id="currentPasswordInput" type="password" placeholder="" autocomplete="on" />
+        <button class="button is-link mt-5" id="saveCompleteButton" aria-label="close">
+          저장 완료하기
+        </button>
+      </div>
+    </div>
+  </div>
+  </form>
+
+
+  </div>
+
+  <footer data-include="../include/footer.html"></footer>
+  <!-- <script type="module" src="../include/header.js"></script> -->
+</body>
+<script src="../include/include.js" defer></script>
+<script src="https://kit.fontawesome.com/58adb12a8e.js" crossorigin="anonymous"></script>
+
+</html>

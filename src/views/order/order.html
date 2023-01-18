@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+    <title>주문 결제 페이지</title>
+    <link rel="stylesheet" href="../include/header.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="./order.css" />
+  </head>
+
+  <body>
+    <header data-include="../include/header.html"></header>
+    <div class="register-user-form-container">
+      <form class="register-user-form-box box" id="registerUserForm">
+        <p class="title registerTitle" id="registerTitle">주문자 정보</p>
+        <div class="field">
+          <label class="label" for="fullNameInput">이름</label>
+          <div class="control">
+            <input
+              class="input"
+              id="fullNameInput"
+              type="text"
+              autocomplete="on"
+            />
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="label" for="emailInput">이메일</label>
+          <div class="control">
+            <input
+              class="input"
+              id="emailInput"
+              type="email"
+              autocomplete="on"
+            />
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="label" for="phoneNumberInput">핸드폰 번호</label>
+          <div class="control">
+            <input
+              class="input"
+              id="phoneNumberInput"
+              type="phone"
+              placeholder="only Number"
+              autocomplete="on"
+            />
+          </div>
+        </div>
+
+        <div class="line"></div>
+
+        <p class="title registerTitle" id="deliveryTitle">배송 정보</p>
+        <button class="same-shipping-btn" type="button">
+          주문자 정보와 동일
+        </button>
+        <div class="field">
+          <label class="label" for="recipientNameInput">수령인</label>
+          <div class="control">
+            <input
+              class="input"
+              id="recipientNameInput"
+              type="text"
+              autocomplete="on"
+            />
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="label" for="recipientPhoneNumberInput"
+            >핸드폰 번호</label
+          >
+          <div class="control">
+            <input
+              class="input"
+              id="recipientPhoneNumberInput"
+              type="phone"
+              placeholder="only Number"
+              autocomplete="on"
+            />
+          </div>
+        </div>
+
+        <div class="field">
+          <div class="field-header">
+            <label class="label" for="recipientAddressInput">주소</label>
+            <a href="https://www.juso.go.kr/openIndexPage.do">주소 찾기</a>
+          </div>
+          <div class="control">
+            <input
+              class="input"
+              id="recipientAddressInput"
+              type="text"
+              placeholder="서울특별시 데쿠버구 데쿠버동 123-31(12345)"
+              autocomplete="on"
+            />
+          </div>
+        </div>
+
+        <div class="field">
+          <label class="label" for="delieveryMessageInput">
+            기사님께 전하는 메시지</label
+          >
+          <div class="control">
+            <input
+              class="input"
+              id="deliveryMessageInput"
+              type="text"
+              autocomplete="on"
+            />
+          </div>
+        </div>
+
+        <button class="button is-primary is-fullwidth" id="payButton">
+          결제하기
+        </button>
+      </form>
+    </div>
+
+    <script src="./order.js" type="module"></script>
+    <script src="../include/include.js" defer></script>
+    <script
+      src="https://kit.fontawesome.com/58adb12a8e.js"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      type="text/javascript"
+      src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"
+    ></script>
+  </body>
+  <footer></footer>
+</html>

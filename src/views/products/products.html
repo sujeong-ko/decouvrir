@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>work-page</title>
+    <!-- <link rel="stylesheet" href="./css/style.css"> -->
+    <link rel="stylesheet" href="./products.css">
+    <link rel="stylesheet" href="../include/header.css" />
+</head>
+
+<body>
+    <header data-include="../include/header.html"></header>
+    <section class="all-work-type">
+        <!-- <a class="add-product-button" href="/add-product">작품 등록</a> -->
+        <section class="work-type">
+            <div class="work-type-header">
+                <span class="sub-title">추상화</span>
+                <a href="/products/type?category=abstract">작품 더 보러가기</a>
+            </div>
+            <ul class="work-wrapper" id="abstract-work-wrapper">
+            </ul>
+        </section>
+        <section class="work-type">
+            <div class="work-type-header">
+                <span class="sub-title">동양화</span>
+                <a href="/products/type?category=asian">작품 더 보러가기</a>
+            </div>
+            <ul class="work-wrapper" id="asian-work-wrapper">
+            </ul>
+        </section>
+        <section class="work-type">
+            <div class="work-type-header">
+                <span class="sub-title">풍경화</span>
+                <a href="/products/type?category=landscape">작품 더 보러가기</a>
+            </div>
+            <ul class="work-wrapper" id="landscape-work-wrapper">
+            </ul>
+        </section>
+        <section class="work-type">
+            <div class="work-type-header">
+                <span class="sub-title">일러스트</span>
+                <a href="/products/type?category=illustration">작품 더 보러가기</a>
+            </div>
+            <ul class="work-wrapper" id="illustration-work-wrapper">
+            </ul>
+        </section>
+        <button class="scroll-button">▲</button>
+        <!-- onClick="javascript:window.scrollTo(0,0)" -->
+
+    </section>
+    <footer data-include="../include/footer.html"></footer>
+
+    <!-- <script src="./slide.js"></script> -->
+    <script src="./products.js" type="module" defer></script>
+    <script src="../include/include.js"></script>
+    <script src="https://kit.fontawesome.com/58adb12a8e.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

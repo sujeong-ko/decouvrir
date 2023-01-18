@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>작가 소개 페이지</title>
+    <link rel="stylesheet" href="./painter.css">
+    <link rel="stylesheet" href="../include/header.css"/>
+</head>
+<body>
+    <header data-include="../include/header.html"></header>
+    <section class="wrapper">
+        <section id="painter-profile">
+            <!--<div id="logo-container">
+                <img id="painter-logo" src = "", alt= "작가로고">
+            </div>-->
+            <div>
+                <p class="painter-title" id="painter-name">작가이름</p>
+                <p id="painter-explain">작가 설명</p>
+            </div>
+        </section>
+        <section id= "painter-work">
+            <div>
+                <p class="painter-title">작가 작품 모아보기</p>
+                <ul class="work-wrapper" id="painter-work-wrapper">
+                </ul>
+            </div>
+        </section>
+    </section>
+    <footer data-include="../include/footer.html"></footer>
+
+    <script src="./painter.js" type="module" defer></script>
+    <script src="../include/include.js" defer></script>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.3/jquery.min.js"></script>
+    <script src="https://kit.fontawesome.com/58adb12a8e.js" crossorigin="anonymous"></script>
+
+</body>
+</html>

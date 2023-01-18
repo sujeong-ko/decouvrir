@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css"
+    />
+    <link rel="stylesheet" href="../include/header.css" />
+    <link rel="stylesheet" href="../register/register.css" />
+  </head>
+
+  <body>
+  
+    <header data-include="../include/header.html"></header>
+    <div class="register-user-form-container">
+        <form class="register-user-form-box box" id="registerUserForm">
+            <p class="title  registerTitle" id="registerTitle">상품 수정</p>
+            <div class="field">
+                <label class="label" for="name">상품명</label>
+                <div class="control">
+                    <input class="input" id="name" type="text" autocomplete="on" />
+                </div>
+
+            <div class="field">
+                <label class="label" for="image">이미지</label>
+                <input id="image" type="file" autocomplete="on" />
+                    </div>
+
+            <div class="field">
+                <label class="label" for="category">카테고리</label>
+                <div class="control">
+                    <input class="input" id="category" type="text" autocomplete="on" />
+                </div>
+        
+            </div>
+
+            <div class="field">
+                <label class="label" for="content">상품 소개</label>
+                <div class="control">
+                    <input class="input" id="content" type="text" autocomplete="off" />
+                </div>
+            </div>
+
+            <div class="field mb-5">
+                <label class="label" for="price">상품 가격</label>
+                <div class="control">
+                    <input class="input" id="price" type="text"
+                        autocomplete="off" />
+                </div>
+            </div>
+            <button class="button is-primary is-fullwidth" id="postButton">
+                상품 수정하기
+            </button>
+        </form>
+    </div>
+        </section>
+
+    </section>
+    <footer data-include="../include/footer.html"></footer>
+    <script src="./update-work.js" type="module"></script>
+    <script src="../include/include.js" defer></script>
+  </body>
+</html>

@@ -1,0 +1,68 @@
+ul,
+li,
+h1 {
+  color: #fff;
+}
+
+nav h1 {
+  font-size: 25px;
+  font-weight: 800;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 10px 20px 10px 20px;
+  box-sizing: border-box;
+  position: fixed;
+  /* height: 100px; */
+  /* background-color: #000; */
+}
+
+nav ul {
+  display: flex;
+}
+
+nav div {
+  display: flex;
+}
+
+nav ul {
+  margin-left: 30px;
+}
+
+nav ul li {
+  padding: 10px;
+  color: #fff;
+  cursor: pointer;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+/* .logout {
+  font-weight: 800;
+} */
+
+/* .logout {
+  font-size: 13px;
+  padding: 
+} */
+
+/* .logout i:hover {
+  color: #2a2a2a;
+} */
+
+#logout {
+  border: none;
+  background: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+#logout:hover {
+  color: #2a2a2a;
+}

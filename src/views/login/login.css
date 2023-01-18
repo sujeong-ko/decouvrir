@@ -1,0 +1,15 @@
+/* .register-user-form-box {
+  margin-top: 30px;
+} */
+
+body {
+  height: 120vh;
+}
+
+.register-user-form-container {
+  height: 100vh;
+}
+
+.buttons a {
+  color: #99bab5e0;
+}
