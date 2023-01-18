@@ -1,17 +1,11 @@
 # **발견을 꿈꾸다, Decouvrir(데쿠버)**
 
 <div align="center">
-<img width="80%" alt="image" src="https://decouvrir.s3.ap-northeast-2.amazonaws.com/decouvrir+gif+short.gif">
+<img width="80%" alt="image" src="https://user-images.githubusercontent.com/100406952/213235240-72803b50-5c6b-491e-8ab1-50202da084c7.gif">
 </div>
 
-<h3 align="center">Decouvrir는 프랑스어로 "발견하다"라는 뜻으로,<br>
-보다 쉽게 미술 작품을 올리고 구매하는 미술품 전문 거래 사이트입니다.</h3>
-
-  <br />
-
----
-
-  <br />
+<h4 align="center">Decouvrir는 프랑스어로 "발견하다"라는 뜻으로,<br>
+보다 쉽게 미술 작품을 올리고 구매하는 미술품 전문 거래 사이트입니다.</h4>
 
 ## **프로젝트 소개**
 
@@ -30,11 +24,7 @@
 - 회원가입, 로그인
 
   <br />
-
----
-
-<br />
-
+  
 ## **팀원**
 
 | 이름         | 담당 업무 |
@@ -44,4 +34,3 @@
 | 고수정       | BE        |
 | 한승주       | BE        |
 
-<br />
